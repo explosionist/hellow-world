@@ -4,6 +4,7 @@
 public class GitDemo {
     
     private double previousNumber;
+    private double reverseNum;
     
     public GitDemo() {
         previousNumber = 1;
@@ -13,7 +14,7 @@ public class GitDemo {
      * This function should add 'num' to 'previousNumber' and return the sum.
     *****/
     public double addNumber(double num) {
-        int sum;
+        double sum;
         System.out.print("Add num to previousNumber");
         sum = previousNumber + num;
         return sum;
@@ -43,7 +44,6 @@ public class GitDemo {
     public double reverseNumber(int num){
       
         double newNumber = 0;
-        private double reverseNum;
         
         while( num != 0 ) {
             double temp = num % 10;
